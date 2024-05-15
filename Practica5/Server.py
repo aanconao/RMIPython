@@ -17,6 +17,6 @@ class PyroServices(object):
 daemon = Pyro4.Daemon()
 uri = daemon.register(PyroServices())
 
-print("URI:", uri)
+print("URI:", uri) #la direccion con nombre de server y su puerto'
 
 daemon.requestLoop()
