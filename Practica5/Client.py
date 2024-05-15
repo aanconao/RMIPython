@@ -1,6 +1,6 @@
 import Pyro4
 
-uri_calculator = Pyro4.Proxy("PYRO:obj_911a9ee729a64f8aa9d43c9f5b7b61da@localhost:38933")
+uri_calculator = Pyro4.Proxy("PYRO:obj_527b08f995f04cb5b091c2682916e613@localhost:34641")
 
 while True:
     print("Menu")
